@@ -69,7 +69,7 @@ def set_hosts():
     """Creates custom hosts list
 
     The host list is built from either commandline (by listing them after all other options)
-    or in the config file in '/etc/private-internet-access-vpn' and combines the lists
+    or in the config file in '/etc/private-internet-access' and combines the lists
     together. This then replaces the openvpn config list on which hosts to modify.
 
     """
